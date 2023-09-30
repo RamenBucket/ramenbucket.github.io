@@ -1,76 +1,109 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="css/styles.css">
-		<title>Artist Alley Club</title>
-		<!-- meta data -->
-		<meta name="name" content="Artist Alley Club">
-		<meta name="description" content="Artist Alley Club website">
-		<meta name="keywords" content="Artist Alley, Artist, Anime, Convention, CMU, Carngie Mellon">
-		<meta name="author" content="Daniel Yi">
-		<!-- link to fonts -->
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap" rel="stylesheet">
-		<!-- favicon -->
-		<link rel="icon" href="images/logo.png">
+        <title>Cool Artists</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
-		<!-- I chose this theme because I am a part of the Artist Alley Club at CMU. This website will have information
-			about the club. The information includes an introduction, our zine projects, our logo, club member art,
-			our fall 2023 schedule, a mailing list page, and a contact/location page. -->
-
-		<!-- header section for title and website navigation -->
         <header>
-			<div id="header-left">
-				<div class="padding-block">
-					<h1 id="header-title">CMU Artist Alley Club</h1>
-				</div>
-			</div>
-			<div id="header-right">
-				<div class="padding-block">
-					<a href="page4.html"><h3 class="header-links"> More </h3></a>
-					<a href="page3.html"><h3 class="header-links"> Mailing List </h3></a>
-					<a href="page2.html"><h3 class="header-links"> Schedule </h3></a>
-					<a href="page1.html"><h3 class="header-links"> Images </h3></a>
-					<a href="index.html"><h3 class="header-links"> Home </h3></a>
-				</div>
-			</div>
-		</header>
-		<!-- content -->
-        <div class="content center">
-			<div class="padding-block">
-				<!-- used a hidden paragraph for top padding, top of div at top of page instead of top of header -->
-				<p class="pad-hidden">this is hidden</p>
-				<img src="images/title.webp" alt="AAC title" title="Artist Alley" class="images-title center-div"/>
-				<h2>Welcome to Artist Alley Club!</h2>
-				<!-- used a different font for this paragraph -->
-				<p class="font-kanit">
-					In anime and comic conventions, there is a section for independent artists to sell their work. 
-					This is called the "artist alley". Artist Alley Club is a community of artists dedicated to 
-					helping each other with activities related to participating in artist alley, like creating 
-					original and fan art and printing and making merchandise of it. We also act as a community 
-					for artists who are generally part of the artist alley subculture: fan-artists and people who 
-					make cartoon, video game, or anime-inspired art.
-				</p>
-				<!-- club zine projects, images links to external web page -->
-				<h3>Here are some examples of some zines that we have made:</h3>
-				<div class="images-zine-wrapper">
-					<a href="https://issuu.com/aaczine/docs/games_zine" target="_blank">
-						<img src="images/fallzine21.webp" alt="fallzine21" title="Fall 2021 Zine" class="images-zine">
-					</a>
-					<a href="https://issuu.com/aaczine/docs/food_zine" target="_blank">
-						<img src="images/summerzine22.webp" alt="summerzine22" title="Summer 2022 Zine" class="images-zine">
-					</a>
-					<a href="https://issuu.com/aaczine/docs/fallzine22_pages" target="_blank">
-						<img src="images/fallzine22.webp" alt="fallzine22" title="Fall 2022 Zine" class="images-zine">
-					</a>
-				</div>
-			</div>
-		</div>
-		<!-- footer with name and email -->
+            <div class="main-div">
+                <span id="logo">Daniel's Favorite Artists</span>
+                <a href=""><span id="donate">Donate &#128149;</span></a>
+            </div>
+        </header>
+        <div id="navbar" class="main-div">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Sargent</a></li>
+                <li><a href="">Monet</a></li>
+                <li><a href="">Singer</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+        <div id="main-img-container">
+            <img src="images/canals.jpg" alt="", class="mySlides">
+            <img src="images/sketching.jpg" alt="", class="mySlides">
+            <img src="images/overall.jpg" alt="", class="mySlides">
+            <img src="images/tease.jpg" alt="", class="mySlides">
+            <img src="images/trees.jpg" alt="", class="mySlides">
+            <img src="images/olive.jpg" alt="", class="mySlides">
+            <div id="main-img-container-text">
+                <span>These Artists</span>
+                <br>
+                <span>Are Pretty Cool</span>
+                <br> <br>
+                <a href="">Learn More</a>
+            </div>
+        </div>
+        <div id="content" class="main-div">
+            <div class="column1of2">
+                <h2>Why does this website exist?</h2>
+                <p>Well, Daniel just really likes cool artwork. Does that warrant 
+                    creating an entire website just for it? We aren't really sure... In 
+                    any case, we have selected three of Daniel's most favorite 
+                    artists to showcase to you all. As an artist himself, Daniel has 
+                    been inspired many times in his own drawings by these artists' 
+                    works. We hope that you will enjoy these artists as much as
+                    Daniel does. Happy painting!</p>
+            </div>
+            <div class="column2of2">
+                <img src="images/girls.jpg" alt="">
+            </div>
+            <hr>
+            <a href="">
+                <div class="column1of3">
+                    <img src="images/Bedouins.jpeg" alt="">
+                    <div id="text">
+                        <h3>John Singer Sargent</h3>
+                        <p>Sargent was an American painter who was widely considered to be the
+                            leading portrait painter of his time.
+                        </p>
+                    </div>
+                </div>
+            </a>
+            <a href="">
+                <div class="column2of3">
+                    <img src="images/woman.jpg" alt="">
+                    <div id="text">
+                        <h3>Claude Monet</h3>
+                        <p>Claude Monet was a French painter and the founder of impressionist painting. He 
+                            believed in expressing one's perceptions before nature.
+                        </p>
+                    </div>
+                </div>
+            </a>
+            <a href="">
+                <div class="column3of3">
+                    <img src="images/ship.jpg" alt="">
+                    <div id="text">
+                        <h3>J. M. W. Turner</h3>
+                        <p>Turner was an English Romantic Painter. He was known for his expressive colouring 
+                            and turbulent, often violent marine paintings.</p>
+                    </div>
+                </div>
+            </a>
+            <br>
+        </div>
         <footer>
-			<p class="footer-text">Created by: Daniel Yi (<a href="mailto: dtyi@andrew.cmu.edu" class="footer-text">dtyi@andrew.cmu.edu</a>)</p>
-		</footer>
+            <p>This website was created by Daniel Yi</p>
+            <p>Contact: <a href="mailto: dtyi@andrew.cmu.edu">dtyi@andrew.cmu.edu</a></p>
+        </footer>
     </body>
 </html>
+<script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        var opacity = 0;
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 10000); // Change image every 10 seconds
+    }
+</script>
