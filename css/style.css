@@ -1,5 +1,11 @@
+/* fonts */
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+/* CSS code sorted alphabetically */
+	
+/* HTML Elements -- sorted alphabetically - Selectors grouped for ID based selectors - 
+   Selectors grouped for class based selectors - Media queries at the bottom */
 
 * {
     margin: 0;
@@ -190,6 +196,8 @@ li {
 #text p {
     font-family: "Nunito";
 }
+
+/* Media Queries */
 
 @media screen and (max-width: 960px) {
     .column1of3, .column2of3, .column3of3 {

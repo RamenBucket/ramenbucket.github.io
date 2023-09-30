@@ -1,8 +1,15 @@
 <!DOCTYPE html>
+<!-- link to site: ramenbucket.github.io -->
 <html>
     <head>
         <title>Cool Artists</title>
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <!-- meta data -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="name" content="Cool Artists">
+		<meta name="description" content="Cool Artists Website">
+		<meta name="keywords" content="Cool Artists, Artist">
+		<meta name="author" content="Daniel Yi">
     </head>
     <body>
         <header>
@@ -21,6 +28,7 @@
             </ul>
         </div>
         <div id="main-img-container">
+            <!-- collowing images are part of a slideshow -->
             <img src="images/canals.jpg" alt="", class="mySlides">
             <img src="images/sketching.jpg" alt="", class="mySlides">
             <img src="images/overall.jpg" alt="", class="mySlides">
@@ -50,6 +58,7 @@
                 <img src="images/girls.jpg" alt="">
             </div>
             <hr>
+            <!-- following is card layout with 3 columns -->
             <a href="">
                 <div class="column1of3">
                     <img src="images/Bedouins.jpeg" alt="">
@@ -83,13 +92,14 @@
                 </div>
             </a>
             <br>
-        </div>
+        </div> <!-- end of div with id content -->
         <footer>
             <p>This website was created by Daniel Yi</p>
             <p>Contact: <a href="mailto: dtyi@andrew.cmu.edu">dtyi@andrew.cmu.edu</a></p>
         </footer>
     </body>
 </html>
+<!-- script for the slideshow -->
 <script>
     var myIndex = 0;
     carousel();
