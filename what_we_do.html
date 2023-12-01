@@ -10,11 +10,9 @@
     <link rel="stylesheet" href="styles/styles.css">
     <!-- footer icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- bible verse of the day script -->
-    <script src="scripts/votd.js"></script>
 </head>
 
-<body onload="getVOTD()">
+<body>
     <div class="content">
         <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
             <div class="container-fluid side-margins">
@@ -29,10 +27,10 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
                                 What We Do
                             </a>
@@ -67,66 +65,24 @@
         <br>
         <nav aria-label="breadcrumb" class="side-margins">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item active" aria-current="page">Home</li>
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">What We Do</li>
             </ol>
         </nav>
-        <div id="carouselExampleIndicators" data-bs-theme="light" class="carousel slide">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="images/pittsburgh.jpg" class="d-block w-100 carousel-img" alt="...">
-                    <div class="carousel-caption">
-                        <div class="carousel-caption-bg">
-                            <h2>Change the World</h2>
-                            <p>Helping Pittsburgh, One family at a time</p>
-                        </div>
-                    </div>
-                </div>
-                <!--
-            <div class="carousel-item">
-                <img src="" class="d-block w-100 carousel-img" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="" class="d-block w-100 carousel-img" alt="...">
-            </div>
-            -->
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-        <br>
-        <div class="bible-verse">
-            <div class="side-margins">
-                <h3>Bible Verse of the Day</h3>
-                <p id="myText"></p>
-                <a class="btn btn-primary btn-bible"
-                    href="https://ourmanna.readme.io/reference/getting-started-with-your-api">Learn more</a>
-            </div>
-        </div>
-        <br>
+        <img src="images/pittsburgh_2.png" alt="" class="banner-img">
+        <br><br>
         <div class="centered-text">
-            <h3>Who We Are</h3>
-            <p id="who-we-are"> This organization goes beyond the building, providing services within the community
-                while focusing on
-                renewing
-                minds, transforming lives with spiritual solutions to worldly problems, and providing resources to
-                people in
-                need.</p>
+            <h3>What We Do</h3>
+            <p> We bridge the gap for people experiencing homelessness, give weekly check-ins for the elderly, and work
+                through barriers for those who have a mental illness or substance abuse to help them work toward
+                rebuilding
+                themselves and their family's.
+                <br><br>
+                We travel and want to meet you where you are, allowing us to lead you toward a relationship with Christ
+                while providing these resources within our communities where people are most vulnerable due to lifestyle
+                or
+                situations.
+            </p>
         </div>
         <br>
         <div class="container">

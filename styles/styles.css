@@ -1,0 +1,211 @@
+/* default */
+a {
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+body, html {
+    height: 100%;
+}
+
+fieldset {
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 1em;
+
+}
+
+footer {
+    background-color: #6148FF;
+    padding: 1em;
+    color: white;
+    text-align: center;
+}
+
+footer h5 {
+    margin-bottom: .8em;
+}
+
+input {
+    border: 0;
+    border-bottom: 1px solid #000;
+}
+
+ul#learn-about, ul#help-needed {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* classes */
+.banner-img {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}
+
+.bible-verse {
+    background-color: #A5B7FF;
+    padding: 1em;
+    color: white;
+    overflow: hidden;
+}
+
+.bible-verse p {
+    text-align: center;
+    padding: 1em;
+}
+
+.breadcrumb {
+    margin-bottom: 25px;
+}
+
+.btn-bible {
+    color: #A5B7FF;
+    border: 0;
+    font-weight: bold;
+    background-color: white;
+    display: block;
+    float: right;
+}
+
+.btn-bible:hover {
+    background-color: #EA4485;
+    color: white;
+}
+
+.btn-custom {
+    border: 0;
+    background-color: white;
+    color: #6148FF;
+    font-weight: bold;
+}
+
+.btn-custom:hover {
+    background-color: #EA4485;
+    color: white;
+}
+
+.btn-overlay {
+    margin-top: 1em;
+    z-index: 10;
+    background-color: #EA4485;
+    border: 0;
+    font-weight: bold;
+}
+
+.btn-overlay:hover {
+    background-color: #A5B7FF;
+}
+
+.card {
+    margin-bottom: 1em;
+}
+
+.card:hover {
+    background-color: #f6f6f6;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.carousel-caption {
+    bottom: 14%;
+}
+
+.carousel-caption-bg {
+    background-color: #EA4485;
+    width: 50%;
+    min-width: 350px;
+    padding: 1em;
+    margin: auto;
+}
+
+.carousel-caption-bg p {
+    font-size: 1.2em;
+}
+
+.carousel-img {
+    height: 75vh;
+    object-fit: cover;
+}
+
+.centered-text {
+    width: 45%;
+    min-width: 350px;
+    margin: auto;
+    padding: 1em;
+}
+
+.centered-text h3 {
+    text-align: center;
+}
+
+.centered-text #who-we-are {
+    text-align: center;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 45px;
+    text-align: center;
+    background: white;
+    color: #6148FF;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    background: #EA4485;
+    color: white;
+}
+
+.footer {
+    flex-shrink: 0;
+}
+
+.navbar-custom {
+    background-color: #6148FF;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 10px;
+}
+
+.row img {
+    width: 100%;
+}
+
+.side-margins {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.side-margins-plus {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* id */
+
+#btn-submit {
+    background-color: #EA4485;
+    border: 0;
+    font-weight: bold;
+}
+
+#btn-submit:hover {
+    background-color: #A5B7FF;
+}
+
+#more-comments {
+    height: 150px;
+}
